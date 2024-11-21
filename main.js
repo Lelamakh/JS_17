@@ -40,3 +40,28 @@ console.log("average -", average);
 console.log("end of the const numbers");
 
 // 5) switch
+
+const currentDay = new Date().getDay();
+switch (currentDay) {
+  case 0:
+    console.log("current day -", "Sunday");
+    break;
+  case 1:
+    console.log("current day - ", "Monday");
+    break;
+  case 2:
+    console.log("current day - ", "Tuesday");
+    break;
+  case 3:
+    console.log("current day - ", "Wednesday");
+    break;
+  case 4:
+    console.log("current day - ", "Thursday");
+    break;
+  case 5:
+    console.log("current day - ", "Friday");
+    break;
+  case 6:
+    console.log("current day - ", "Saturday");
+    break;
+}
